@@ -20,19 +20,20 @@ class ViewController: UIViewController {
   
         }
 
-    @IBAction func button1(_ sender: UIButton) {
+    @IBAction func button1(_ sender: UIButton) { print (imageView.image = UIImage (named: "christmas wp1"))
     }
-    @IBAction func button2(_ sender: UIButton) {
+    @IBAction func button2(_ sender: UIButton) { print (imageView.image = UIImage (named:"christmas wp2"))
     }
-    @IBAction func button3(_ sender: UIButton) {
+    @IBAction func button3(_ sender: UIButton) { print (imageView.image = UIImage (named: "hearts2"))
     }
-    @IBAction func button4(_ sender: UIButton) {
-    }
-    
-    @IBAction func button5(_ sender: UIButton) {
+    @IBAction func button4(_ sender: UIButton) { print (imageView.image = UIImage (named: "hearts4"))
     }
     
-    @IBAction func button6(_ sender: UIButton) {
+    @IBAction func button5(_ sender: UIButton) { print (imageView.image = UIImage (named:"dyanmic2"))
+    }
+    
+    @IBAction func button6(_ sender: UIButton) { print (imageView.image = UIImage (named: "dynamic1"))
     }
 }
+
 

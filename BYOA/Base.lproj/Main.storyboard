@@ -78,10 +78,6 @@
                                     <action selector="button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sRE-sC-kRc"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sqP-SO-PO3">
-                                <rect key="frame" x="164" y="354" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0F-44-lzz">
                                 <rect key="frame" x="31" y="637" width="99" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -93,6 +89,10 @@
                                     <action selector="button6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6rY-3O-PII"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sqP-SO-PO3">
+                                <rect key="frame" x="154" y="170" width="240" height="692"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.97121745347976685" green="0.77610224704645459" blue="0.90884210861286585" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
