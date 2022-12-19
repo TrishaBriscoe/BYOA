@@ -18,7 +18,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dynamic Wallpapers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBF-mm-4xj">
                                 <rect key="frame" x="20" y="84" width="374" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <color key="textColor" red="0.97121745349999999" green="0.40211436128098954" blue="0.78928390610589461" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -26,7 +26,7 @@
                                 <rect key="frame" x="20" y="269" width="110" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Christmas 1">
+                                <buttonConfiguration key="configuration" style="gray" title="Christmas 1">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                     <color key="baseForegroundColor" red="0.97121745349999999" green="0.35039455429999999" blue="0.77274987549999996" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -38,7 +38,7 @@
                                 <rect key="frame" x="19" y="334" width="124" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Christmas 2">
+                                <buttonConfiguration key="configuration" style="gray" title="Christmas 2">
                                     <color key="baseForegroundColor" red="0.97121745349999999" green="0.35039455429999999" blue="0.77274987549999996" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -49,7 +49,7 @@
                                 <rect key="frame" x="21" y="403" width="122" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Valentines 1">
+                                <buttonConfiguration key="configuration" style="gray" title="Valentines 1">
                                     <color key="baseForegroundColor" red="0.97121745349999999" green="0.35039455429999999" blue="0.77274987549999996" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -60,7 +60,7 @@
                                 <rect key="frame" x="21" y="473" width="122" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Valentines 2">
+                                <buttonConfiguration key="configuration" style="gray" title="Valentines 2">
                                     <color key="baseForegroundColor" red="0.97121745349999999" green="0.35039455429999999" blue="0.77274987549999996" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -71,7 +71,7 @@
                                 <rect key="frame" x="31" y="554" width="99" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Classic 1">
+                                <buttonConfiguration key="configuration" style="gray" title="Classic 1">
                                     <color key="baseForegroundColor" red="0.97121745349999999" green="0.35039455429999999" blue="0.77274987549999996" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -82,7 +82,7 @@
                                 <rect key="frame" x="31" y="637" width="99" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Classic 2">
+                                <buttonConfiguration key="configuration" style="gray" title="Classic 2">
                                     <color key="baseForegroundColor" red="0.97121745349999999" green="0.35039455429999999" blue="0.77274987549999996" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -90,7 +90,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sqP-SO-PO3">
-                                <rect key="frame" x="154" y="170" width="240" height="692"/>
+                                <rect key="frame" x="138" y="170" width="240" height="692"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
