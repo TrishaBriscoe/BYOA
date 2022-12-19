@@ -20,20 +20,45 @@ class ViewController: UIViewController {
   
         }
 
-    @IBAction func button1(_ sender: UIButton) { print (imageView.image = UIImage (named: "christmas wp1"))
+    @IBAction func button1(_ sender: UIButton) {
+        self.view.backgroundColor = UIColor(patternImage: UIImage (named: "christmas wp1")!)
+    
+        
+        
+        
+        
+        print (imageView.image = UIImage (named: "christmas wp1"))
     }
-    @IBAction func button2(_ sender: UIButton) { print (imageView.image = UIImage (named:"christmas wp2"))
+    @IBAction func button2(_ sender: UIButton) {
+        self.view.backgroundColor = UIColor(patternImage: UIImage (named: "christmas wp2")!)
+        
+        print (imageView.image = UIImage (named:"christmas wp2"))
     }
-    @IBAction func button3(_ sender: UIButton) { print (imageView.image = UIImage (named: "hearts2"))
+    @IBAction func button3(_ sender: UIButton) {
+        self.view.backgroundColor = UIColor(patternImage: UIImage (named: "hearts2")!)
+        print (imageView.image = UIImage (named: "hearts2"))
     }
-    @IBAction func button4(_ sender: UIButton) { print (imageView.image = UIImage (named: "hearts4"))
+    @IBAction func button4(_ sender: UIButton) {
+        self.view.backgroundColor = UIColor(patternImage: UIImage (named: "hearts4")!)
+        print (imageView.image = UIImage (named: "hearts4"))
     }
     
-    @IBAction func button5(_ sender: UIButton) { print (imageView.image = UIImage (named:"dyanmic2"))
+    @IBAction func button5(_ sender: UIButton) {
+        self.view.backgroundColor = UIColor(patternImage: UIImage (named:"dyanmic2")!)
+        print (imageView.image = UIImage (named:"dyanmic2"))
     }
     
-    @IBAction func button6(_ sender: UIButton) { print (imageView.image = UIImage (named: "dynamic1"))
+    @IBAction func button6(_ sender: UIButton) {
+        self.view.backgroundColor = UIColor(patternImage: UIImage (named: "dynamic1")!)
+        print (imageView.image = UIImage (named: "dynamic1"))
     }
 }
+
+
+
+
+
+
+
 
 
